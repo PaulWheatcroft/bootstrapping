@@ -1,3 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+ul {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
 body {
     color: #3f3f3f;
     font-family: 'Work Sans', sans-serif;
@@ -36,23 +47,23 @@ article {
     display: block;
 }
 #one {
-    height: 300px;
+
     background-color: rgb(128, 103, 119);
 }
 #two {
-    height: 300px;
+
     background-color: rgb(126, 86, 111);
 }
 #three {
-    height: 300px;
+
     background-color: rgb(128, 69, 106);
 }
 #four {
-    height: 300px;
+
     background-color: rgb(131, 27, 93);
 }
 footer {
     clear: both;
-    height: 200px;
+    height: 100px;
     background-color: paleturquoise;
 }
