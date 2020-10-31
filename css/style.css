@@ -1,25 +1,39 @@
 body {
     color: #3f3f3f;
-    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+body h1 {
+    font-family: 'Grandstander', cursive;
 }
 nav {
-    height: 75px;
     background-color: rgb(177, 218, 187);
+}
+#nav-logo {
+    float: left;
+    line-height: 75px;
+}
+nav ul {
+    float: right;
+    line-height: 75px;
+}
+nav li {
+    display: inline;
 }
 header {
     height: 100vh;
     background-color: rgb(135, 135, 204);
 }
-header h1 {
-    line-height: 100vh;
-}
 #main {
-    height: 300px;
     background-color: beige;
 }
 article {
     background-color: lightpink;
-    height: 300px;
+}
+.more-things {
+    color: #fafafa;
+}
+.more-things i {
+    display: block;
 }
 #one {
     height: 300px;
